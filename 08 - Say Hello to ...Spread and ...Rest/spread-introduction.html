@@ -11,7 +11,7 @@
   const specialty = ['Meatzza', 'Spicy Mama', 'Margherita'];
 
   const pizzas = [...featured, 'veg', ...specialty];
-  const fridayPizzas = [...pizzas];
+  const fridayPizzas = [...pizzas]; // if we do fridayPizzas = pizza, and then fridayPizzas[0] = "Smth', pizzas arrau will be modified too !
 
   const deepDish = {
     pizzaName: 'Deep Dish',
